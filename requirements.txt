@@ -1,7 +1,4 @@
 pandas
-numpy
 matplotlib
+fpdf2
 pyyaml
-reportlab
-schedule
-python-dotenv

@@ -1,0 +1,9 @@
+portfolio:
+  target_allocation:
+    etf: 0.75
+    bonds: 0.15
+    crypto: 0.10
+expenses:
+  monthly_limit: 8000
+report:
+  output_dir: reports/
