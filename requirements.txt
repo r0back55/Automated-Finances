@@ -1,0 +1,7 @@
+pandas
+numpy
+matplotlib
+pyyaml
+reportlab
+schedule
+python-dotenv
