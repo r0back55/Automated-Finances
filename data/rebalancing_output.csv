@@ -1,0 +1,4 @@
+asset,value,current_allocation,target_allocation,difference
+etf,75000,0.75,0.75,0.0
+bonds,15000,0.15,0.15,0.0
+crypto,10000,0.1,0.1,0.0
