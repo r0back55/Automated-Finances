@@ -2,6 +2,7 @@ from fpdf import FPDF
 from pathlib import Path
 
 def generate_report(config, rebalance, expenses, simulation, fig_path):
+    """Generuje raport PDF podsumowujący analizy finansowe."""
     pdf = FPDF()
     pdf.add_page()
 
