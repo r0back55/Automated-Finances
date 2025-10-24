@@ -6,6 +6,7 @@ from finance.simulation import run_simulation
 from reports.report_generator import generate_report
 
 def load_config():
+    """Wczytuje konfigurację z pliku config.yaml."""
     config_path = Path("config.yaml")
     if not config_path.exists():
         raise FileNotFoundError("Brak pliku config.yaml w katalogu głównym projektu.")
@@ -13,6 +14,7 @@ def load_config():
         return yaml.safe_load(f)
 
 def main():
+    """Główna funkcja uruchamiająca automatyzację finansów osobistych."""
     print("=== Personal Finance Automation ===")
     config = load_config()
 
